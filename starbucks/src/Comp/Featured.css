@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.featured h1 {
+  color: #1e3932;
+  font: 700 55px Rubik;
+  text-align: center;
+  margin: 40px 0 70px 0;
+  letter-spacing: 2px;
+}
+.f1-pistachio img,
+.cortado img {
+  width: 100%;
+}
+.pistachios {
+  display: flex;
+  gap: 20px;
+}
+.f1-pistachio-text {
+  background-color: #d6ddc7;
+}
+.cortado-text {
+  background-color: #5f4333;
+}
+.f1-pistachio-text,
+.cortado-text {
+  text-align: center;
+  padding: 30px 0;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+.f1-pistachio,
+.cortado {
+  display: flex;
+  flex-direction: column;
+}
+.f1-pistachio-text h2,
+.refreshers-content h2,
+.cortado-text h2 {
+  font: 500 24px Rubik;
+}
+.f1-pistachio-text h2,
+.refreshers-content h2 {
+  color: #32473f;
+}
+.cortado-text h2 {
+  color: #fff;
+}
+.f1-pistachio-text p,
+.cortado-text p {
+  font: 400 20px Rubik;
+  width: 530px;
+  margin: 0 auto;
+  line-height: 32px;
+}
+.f1-pistachio-text p {
+  color: #32473f;
+}
+.cortado-text p {
+  color: #fff;
+}
+.f1-pistachio-text a,
+.refreshers-content a,
+.cortado-text a {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font: 450 20px Rubik;
+}
+.f1-pistachio-text a,
+.refreshers-content a {
+  border: 1px solid #32473f;
+  color: #32473f;
+}
+.cortado-text a {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.refreshers {
+  display: flex;
+  margin: 50px 0;
+  align-items: center;
+  width: 100%;
+}
+.refreshers img {
+  width: 50%;
+}
+.refreshers-content {
+  background-color: #d6ddc7;
+  padding: 90px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  text-align: center;
+}
+.refreshers-content p {
+  color: #32473f;
+  font: 400 22px Rubik;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 32px;
+}
+.latte-content {
+  padding: 108px 0;
+}
+.latte-content a {
+  padding: 8px 14px;
+}
+.featured a:hover {
+  background-color: hsl(158, 100%, 23%, 0.1);
+}
+.cortado a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

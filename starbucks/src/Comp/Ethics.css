@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.ethics {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 50px;
+}
+.ethics h1 {
+  font: 650 60px Work Sans;
+}
+.ethics p {
+  font: 450 20px Work Sans;
+  line-height: 32px;
+}
+.ethics-content,
+.standarts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.standarts h2 {
+  font: 650 40px Work Sans;
+}
+.pdf h3 {
+  font: 650 28px Work Sans;
+  margin-bottom: 20px;
+}
+.pdf {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.pdf a {
+  font: 500 20px Work Sans;
+  color: rgb(0, 117, 74);
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+.pdf a:hover{
+    text-decoration: none;
+}

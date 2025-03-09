@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.bg-bottom {
+  background-color: #1e3932;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.menu-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  margin: 0 auto;
+}
+.bg-bottom hr {
+  width: 270px;
+  margin: 20px 0 0 350px;
+}
+.bag-icon {
+  font-size: 35px;
+  color: #fff;
+}
+.down-icon {
+  color: #fff;
+}
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  text-decoration: none !important;
+}
+.bottom-text h1 {
+  font: 400 17px Rubik;
+  margin-bottom: 7px;
+  color: #ffffffb3;
+}
+.bottom-text h2 {
+  font: 600 20px Rubik;
+  color: #fff;
+}

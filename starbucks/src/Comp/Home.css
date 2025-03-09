@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.home1 {
+  display: flex;
+  margin-top: 35px;
+}
+.home-bg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.home1-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home1-content,
+.home2-content {
+  background-color: #d6ddc7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.home1-text,
+.home2-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.home1-text h2 {
+  width: 500px;
+  color: #1d3c34;
+  font: 450 60px Rubik;
+}
+.home1-text h3 {
+  width: 500px;
+  font: 420 24px Rubik;
+  color: #1d3c34;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.home1-button,
+.home2-button {
+  margin-top: 15px;
+  /* GAP + MARGIN-TOP ??? */
+}
+.home1-button a,
+.home2-button a {
+  text-decoration: none;
+  color: #1d3c34;
+  border: 1px solid #1d3c34;
+  border-radius: 40px;
+  padding: 10px 18px;
+  font: 600 18px Lato;
+}
+.home1-button a:hover {
+  background-color: hsla(164, 31%, 17%, 0.1);
+}
+.home2-content {
+  background-color: #5f4633;
+}
+.home2-text h2,
+.home2-text h3 {
+  color: #fbf5e7;
+}
+.home2-text h2 {
+  font: 600 24px Lato;
+}
+.home2-text h3 {
+  font: 510 19px Lato;
+  line-height: 35px;
+  width: 450px;
+}
+.home2-button a {
+  color: #fbf5e7;
+  border: 1px solid #fbf5e7;
+}
+.home2-button a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.home-paragraph {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 730px;
+  margin: 50px auto;
+  font: 400 16px Rubik;
+  line-height: 25px;
+}
+
+/* Media */
+
+@media (max-width: 1160px) {
+  .home1-img {
+    width: 95%;
+  }
+  .home1-button,
+  .home2-button {
+    margin-top: 0px;
+  }
+  .home1-text,
+  .home2-text {
+    gap: 25px;
+  }
+  .home1-text h2 {
+    font-size: 40px;
+  }
+  .home2-text h2 {
+    font-size: 22px;
+  }
+  .home1-text h3 {
+    font-size: 20px;
+    width: 90%;
+  }
+  .home2-text h3 {
+    font-size: 17px;
+    width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .home1-text,
+  .home2-text {
+    gap: 20px;
+  }
+  .home1-text h2 {
+    font-size: 36px;
+  }
+  .home2-text h2 {
+    font-size: 20px;
+  }
+  .home1-text h3 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .home2-text h3 {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .home1-button a,
+  .home2-button a {
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 830px) {
+  .home1-text h2 {
+    font-size: 33px;
+  }
+  .home2-text h2 {
+    font-size: 17px;
+  }
+  .home1-text h3 {
+    font-size: 16px;
+  }
+  .home2-text h3 {
+    font-size: 13px;
+  }
+  .home1-button a,
+  .home2-button a {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home1 {
+    flex-direction: column;
+  }
+  .home1-img {
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+  }
+  .home1-text {
+    height: 45vh;
+    justify-content: center;
+  }
+  .home2-text {
+    height: 35vh;
+    justify-content: center;
+  }
+  .home1:first-child {
+    flex-direction: column-reverse;
+  }
+  .home1-text h2,
+  .home1-text h3,
+  .home2-text h2,
+  .home2-text h3 {
+    width: 90%;
+  }
+  .home1-text h2 {
+    font-size: 35px;
+  }
+  .home1-text h3 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .home2-text h2 {
+    font-size: 20px;
+  }
+  .home2-text h3 {
+    font-size: 16px;
+  }
+  .home-paragraph {
+    width: 90%;
+    font-size: 12px;
+    line-height: 22px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .home1-text h2 {
+    font-size: 28px;
+  }
+  .home1-text h3 {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .home2-text h2 {
+    font-size: 18px;
+  }
+  .home2-text h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .home-paragraph {
+    width: 90%;
+    font-size: 12px;
+    margin: 20px auto;
+  }
+  .home1-button a,
+  .home2-button a {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .home1-text,
+  .home2-text {
+    gap: 10px;
+  }
+  .home1-text h2 {
+    font-size: 22px;
+  }
+  .home1-text h3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .home2-text h2 {
+    font-size: 14px;
+  }
+  .home2-text h3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .home1-button a,
+  .home2-button a {
+    padding: 4px 14px;
+    font-size: 12px;
+  }
+  .home1-button,
+  .home2-button {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 245px) {
+  .home1-text h2 {
+    font-size: 18px;
+  }
+  .home1-text h3 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .home1-button a,
+  .home2-button a {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  .home2-text h2 {
+    font-size: 12px;
+  }
+  .home2-text h3 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 160px) {
+  .home1-text h2 {
+    font-size: 15px;
+  }
+  .home1-text h3 {
+    font-size: 8px;
+    line-height: 13px;
+  }
+  .home2-text h2 {
+    font-size: 8px;
+  }
+  .home2-text h3 {
+    font-size: 6px;
+    line-height: 10px;
+  }
+}

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.footer {
+  box-shadow: 0 -2px 0 0 rgba(0, 0, 0, 0.1);
+}
+.f-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 0 0 0;
+  padding: 30px 0;
+  width: 1220px;
+}
+.f-line {
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.f-col1 a {
+  color: rgba(0, 0, 0, 0.58);
+  text-decoration: none;
+  font: 400 18px Rubik;
+}
+.f-col1 h2 {
+  color: black;
+  font: 400 20px Rubik;
+  margin-bottom: 10px;
+}
+.f-col1 a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+.f-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.f-icons {
+  display: flex;
+  justify-content: left;
+  gap: 17px;
+  margin: 40px 0;
+}
+.f-icon {
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  font-size: 22px;
+}
+.f-icon:hover {
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.f2-links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: fit-content;
+}
+.f2-links a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font: 420 17px Rubik;
+}
+.f2-links a:hover {
+  text-decoration: underline;
+}
+.footer-2 h3 {
+  font: 450 15px Rubik;
+  color: rgba(0, 0, 0, 0.58);
+  margin: 40px 0;
+}
+.f-col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 215px;
+}
+.toggle-icon {
+  font-size: 20px;
+  display: none;
+}
+
+/* Media */
+@media (max-width: 1270px) {
+  .f-columns {
+    width: 100%;
+    gap: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .f-links {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .f-links.open {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .f-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .toggle-icon {
+    display: inline;
+  }
+  .f-col1 {
+    width: 100%;
+    gap: 20px;
+  }
+  .f-col1 h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 400px) {
+  .f-icon {
+    font-size: 18px;
+  }
+  .f-icons {
+    flex-wrap: wrap;
+  }
+  .f2-links a {
+    font-size: 14px;
+  }
+  .footer-2 h3 {
+    font-size: 12px;
+  }
+}
+

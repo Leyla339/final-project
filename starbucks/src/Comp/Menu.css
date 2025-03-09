@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.menu {
+  padding: 50px 0;
+  display: flex;
+  /* align-items: center; */
+  gap: 150px;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.category h2,
+.category2 h2 {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.category h2 {
+  font: 700 21px Rubik;
+}
+.category2 h2 {
+  font: 700 26px Rubik;
+}
+.products a {
+  color: gray;
+  font: 400 18px Rubik;
+  text-decoration: none;
+  width: 150px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.products2 img {
+  width: 130px;
+  border-radius: 50%;
+}
+.products2 a {
+  text-decoration: none;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.products-flex {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu-right h1 {
+  font: 700 35px Rubik;
+  margin-bottom: 60px;
+}
+.products2 h2 {
+  font: 400 22px Rubik;
+  color: black;
+  width: 200px;
+  line-height: 30px;
+}
+.menu-line {
+  width: 650px;
+  margin: 30px 0;
+  border: 1px solid rgba(128, 128, 128, 0.126);
+}

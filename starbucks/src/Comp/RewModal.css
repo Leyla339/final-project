@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body.modal-open {
+  overflow: hidden;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 420px;
+  height: 65vh;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 20px; */
+}
+.modal-content img {
+  width: 450px;
+  margin-bottom: 20px;
+}
+.modal-content h2 {
+  font: 500 22px Rubik;
+}
+.modal-content p {
+  font: 350 17px Rubik;
+  width: 430px;
+  line-height: 22px;
+  margin: 20px 0;
+}
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 0;
+  background-color: transparent;
+  color: rgb(90, 88, 88);
+  cursor: pointer;
+  font-size: 30px;
+  z-index: 100;
+}
+.prev-button,
+.next-button {
+  border: 0;
+  background-color: transparent;
+  font-size: 20px;
+  color: rgb(90, 88, 88);
+  cursor: pointer;
+}
+.prev-button {
+  position: absolute;
+  left: 120px;
+}
+.next-button {
+  position: absolute;
+  right: 120px;
+}
+.slider-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.dots-container {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+.dot {
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.dot.active {
+  color: black;
+}
+.ok-button {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  padding: 6px 15px;
+  font: 500 18px Rubik;
+  cursor: pointer;
+  border-radius: 20px;
+  position: absolute;
+  right: 30px;
+}
+.ok-button:hover {
+  background-color: #0000001a;
+}

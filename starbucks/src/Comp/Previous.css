@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.fixed {
+  position: relative;
+}
+.prev {
+  margin-bottom: 40px;
+}
+.prev h1 {
+  font: 650 25px Rubik;
+  margin: 40px 0;
+}
+.prev-content img {
+  width: 260px;
+}
+.prev-content h2 {
+  font: 500 30px Rubik;
+  width: 350px;
+  line-height: 38px;
+  color: #000000de;
+}
+.prev-content p {
+  color: #00000094;
+  font: 400 20px Rubik;
+  width: 300px;
+  margin: 20px 0 40px 0;
+  line-height: 28px;
+}
+.prev-content a {
+  border-radius: 30px;
+  border: 1px solid black;
+  padding: 10px 16px;
+  font: 600 16px Rubik;
+  letter-spacing: 1px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.p-join {
+  background-color: black;
+  color: white;
+}
+.p-sign {
+  color: black;
+}
+.p-sign:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.p-join:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
+}
+.fav-content img {
+  width: 230px;
+  margin-bottom: 25px;
+}

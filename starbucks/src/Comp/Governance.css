@@ -1,0 +1,60 @@
+.gov {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 50px;
+}
+.gov-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.gov-content h1 {
+  font: 650 60px Work Sans;
+}
+.materials h3,
+.gov-paragraph h3 {
+  font: 650 40px Work Sans;
+}
+.gov-content p,
+.gov-paragraph p {
+  font: 500 20px Work Sans;
+  line-height: 32px;
+}
+.materials {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.gov-btn {
+  color: rgb(0, 117, 74);
+  font: 550 18px Work Sans !important;
+  text-decoration: none !important;
+  border-radius: 20px;
+  border: 1px solid rgb(0, 117, 74);
+  width: fit-content;
+  padding: 8px 14px;
+}
+.gov-btn:hover {
+  background-color: hsl(158, 100%, 23%, 0.1);
+}
+.materials a {
+  font: 450 22px Work Sans;
+  color: rgb(0, 117, 74);
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+.gov-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.gov-paragraph a {
+  text-decoration: underline;
+  color: rgb(0, 117, 74);
+  text-decoration-color: #000;
+}
+.gov-paragraph a:hover,
+.materials a:hover {
+  text-decoration: none;
+}

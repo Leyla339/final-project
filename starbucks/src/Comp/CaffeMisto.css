@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.coffee-main img {
+  width: 200px;
+  margin: 0 300px;
+}
+.coffee-main {
+  background-color: #1f3933;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.coffee-name h2 {
+  font: 600 30px Rubik;
+  margin-bottom: 20px;
+  color: white;
+  width: 380px;
+}
+.coffee-name p {
+  color: #ffffffb3;
+  font: 400 20px Rubik;
+}
+.info-icon {
+  font-size: 15px;
+  vertical-align: super;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.info-icon:hover {
+  box-shadow: 0 0 0 2px rgba(128, 128, 128, 0.16);
+}
+.coffee-name {
+  position: relative;
+}
+.popup,
+.popup2 {
+  background: #faf6ee;
+  color: #333;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #cba258;
+  z-index: 10;
+  width: 300px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.popup {
+  position: absolute;
+  top: 190px;
+  right: 320px;
+}
+.popup2 {
+  position: absolute;
+  bottom: -430px;
+  left: 140px;
+}
+.popup p,
+.popup2 p {
+  width: 250px;
+}
+
+.close-btn {
+  border: none;
+  background: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: grey;
+}
+.popup hr,
+.popup2 hr {
+  border: 1px solid rgba(128, 128, 128, 0.244);
+  height: 70px;
+}
+.popup .stars,
+.popup2 .stars {
+  font-size: 25px;
+  margin-bottom: 45px;
+  color: #cba258;
+}
+
+.coffee-desc {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.coffee-size h2,
+.coffee-includes h2 {
+  font: 500 25px Rubik;
+}
+.coffee-desc hr {
+  background-color: #d4e9e2;
+  border: none;
+  width: 450px;
+  height: 4px;
+}
+.coffee-size-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 0;
+}
+.size-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.size-image {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /* transition: transform ease-in-out; */
+}
+.size-image img {
+  width: 30px;
+}
+.size-image.selected {
+  border: 3px solid #00754a;
+  background-color: hsl(158, 100%, 23%, 0.1);
+}
+.size-card h3 {
+  font: 500 17px Rubik;
+  margin-bottom: 4px;
+}
+.size-card p {
+  font: 400 15px Rubik;
+}
+.coffee-loc-p {
+  font: 400 16px Rubik;
+  color: grey;
+}
+.coffee-loc {
+  margin-right: 10px;
+  font-size: 18px;
+}
+select {
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  margin: 20px 0;
+  width: 450px;
+  appearance: none;
+  font: 500 20px arial;
+}
+
+select:focus {
+  border-color: #00754a;
+  background-color: #00754a14;
+  outline: none;
+}
+/* select:focus + .select-label {
+  color: #00754a;
+  background-color: #00754a14;
+} */
+.select-container {
+  position: relative;
+}
+.select-label {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  background: white;
+  border-radius: 10px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+.select-icon {
+  position: absolute;
+  top: 34px;
+  right: 10px;
+  border: 1px solid #00754a;
+  border-radius: 50%;
+  color: #00754a;
+  padding: 4px;
+  cursor: pointer;
+}
+.magic-icon {
+  margin-right: 15px;
+  color: #cba258;
+  font-size: 20px;
+}
+.customize {
+  margin-top: 20px;
+  background-color: #1e3932;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  font: 500 20px Rubik;
+  cursor: pointer;
+}
+.bg-bottom-coffee {
+  background-color: #1f3933;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+.bottom-coffee-p {
+  width: 420px;
+  color: #ffffffb3;
+  margin: 20px 0;
+  font: 400 15px Rubik;
+  line-height: 22px;
+}
+.bottom-stars {
+  color: #cba258;
+  border: 1px solid #cba258;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font: 400 14px Rubik;
+}
+.coffee-ingr {
+  font: 450 15px Rubik;
+  color: white;
+  margin-bottom: 30px;
+}
+.ingr-list {
+  padding: 8px 16px;
+  color: white;
+  font: 500 17px Rubik;
+  background: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.ingr-list:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.coffee-add-order {
+  position: fixed;
+  top: 450px;
+  right: 50px;
+  background-color: #00754a;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 30px;
+  font: 500 23px Rubik;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

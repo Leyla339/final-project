@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container3 {
+  width: 50%;
+  margin: 0 auto;
+}
+.contact {
+  display: flex;
+  position: relative;
+}
+.contact-position {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+.contact-position h1 {
+  font: 450 30px Work Sans;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+  margin-top: 100px;
+}
+.contact-content h1 {
+  font: 700 45px Work Sans;
+  text-align: center;
+}
+.contact-content h2 {
+  font: 700 40px Work Sans;
+}
+.c-content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.c-content1 p {
+  font: 500 21px Work Sans;
+  line-height: 35px;
+}
+.c-content1 span {
+  margin-right: 5px;
+}
+.c-content1 a {
+  color: black;
+}
+.c-content1 a:hover {
+  text-decoration: none;
+}

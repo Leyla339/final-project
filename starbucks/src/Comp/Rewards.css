@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.container4 {
+  width: 1115px;
+  margin: 0 auto;
+}
+.reward-main {
+  position: relative;
+}
+.rewards1 {
+  background-color: #1e3932;
+  padding: 18px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.rewards1 h1 {
+  color: white;
+  font: 550 16px Rubik;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+span {
+  font-size: 8px;
+  vertical-align: super;
+}
+.rewards2 {
+  background: url(./img//reward-bg.png);
+  background-position: 50%;
+  background-size: auto 100%;
+  height: 120vh;
+  background-color: rgb(212, 233, 226);
+}
+.rewards2-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  height: 120vh;
+  gap: 20px;
+}
+.rewards2-content h2 {
+  font: 550 40px Rubik;
+  letter-spacing: 1px;
+}
+.rewards2-content h3 {
+  font: 400 20px Rubik;
+}
+.rewards2-content .join-now {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(158, 100%, 23%, 1);
+  border-radius: 40px;
+  padding: 10px 18px;
+  font: 600 18px Lato;
+  width: fit-content;
+  margin-top: 20px;
+}
+.rewards2-content h3 a {
+  color: black;
+  text-decoration: underline;
+}
+.rewards2-content h3 a:hover {
+  text-decoration: none;
+}
+.rewards3 {
+  /* height: 100vh; */
+  margin: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  text-align: center;
+}
+.rewards3-cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.rewards3-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.rewards3-card h1 {
+  border: 2px solid hsl(158, 100%, 23%, 1);
+  border-radius: 50%;
+  padding: 15px 20px;
+  width: fit-content;
+  font: 600 20px Rubik;
+  color: hsl(158, 100%, 23%, 1);
+}
+.rewards3-card h2 {
+  font: 500 22px Rubik;
+}
+.rewards3-card p {
+  width: 350px;
+  font: 400 17px Rubik;
+  line-height: 27px;
+}
+.rewards3-card a {
+  color: hsl(158, 100%, 23%, 1);
+  font: 400 17px Rubik !important;
+}
+.rewards3-card a:hover {
+  text-decoration: none;
+}
+.rewards3-content h1 {
+  font: 450 30px Rubik;
+  margin-bottom: 20px;
+}
+.rewards3-content h2 {
+  font: 400 18px Rubik;
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+.reward4 {
+  background: hsl(160, 32%, 87%, 0.33);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 30px 0;
+}
+.reward4 h1 {
+  font: 450 30px Rubik;
+  margin-bottom: 50px;
+}
+.rewards4-content {
+  background-color: #d4e9e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 30px 0;
+  box-shadow: inset 0 7px 9px -7px #00000024;
+}
+.rewards4-content img {
+  width: 450px;
+}
+.r-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.r-cnt p {
+  width: 400px;
+  font: 400 18px Rubik;
+  line-height: 24px;
+}
+.r-cnt h1 {
+  width: 300px;
+  font: 450 30px Rubik;
+}
+.r-tabs span {
+  font: 500 25px Rubik;
+  cursor: pointer;
+}
+.r-tabs {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.star {
+  color: #cba258;
+  vertical-align: bottom;
+}
+.underline {
+  position: absolute;
+  bottom: -30px;
+  height: 4px;
+  width: 20%;
+  background-color: #006241;
+  /* transition: left 0.3s ease-in-out, width 0.3s ease-in-out; */
+  transition: 0.3s;
+  transform: translateX(-30%);
+}
+.rewards3-card img {
+  width: 120px;
+}
+.rewards3-card a {
+  font: 450 18px Rubik;
+}
+
+.pay-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pay-methods-bg {
+  background-color: #f2f0eb;
+  padding: 50px 0;
+}
+.pay-methods h1 {
+  margin-bottom: 15px;
+  font: 450 30px Rubik;
+}
+.pay-methods h2 {
+  font: 400 18px Rubik;
+  width: 650px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 100px;
+}
+.pay-1 h1 {
+  font: 500 25px Rubik;
+}
+.pay-1 h2 {
+  font: 350 17px Rubik;
+  width: fit-content;
+}
+.pay-1 {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  gap: 70px;
+}
+.pay-1 img {
+  width: 140px;
+  object-fit: contain;
+}
+.pay1-cnt {
+  display: flex;
+  gap: 15px;
+}
+.pay1-cnt h3 {
+  font: 500 20px Rubik;
+  width: 200px;
+  line-height: 26px;
+}
+.pay1-cnt h4 {
+  font: 400 17px Rubik;
+  line-height: 26px;
+  width: 235px;
+}
+.pay1-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.line {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.361);
+  height: 1px;
+  border: none;
+  margin: 30px 0;
+}
+.r-border {
+  background: url(./img/reward-border.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join-rewards {
+  background-color: #d4e9e2;
+  margin: 40px 0;
+  padding: 100px 0 60px 0;
+  text-align: center;
+}
+.join-rewards h1 {
+  font: 500 30px Rubik;
+}
+.join-rewards h2 {
+  font: 400 17px Rubik;
+  margin: 20px 0 60px 0;
+  line-height: 20px;
+}
+.r-blocks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.r-block1 img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+.r-block1 p {
+  font: 420 17px Rubik;
+  line-height: 26px;
+  width: 350px;
+}
+.r-block1 a {
+  color: hsl(158, 100%, 23%, 1);
+}
+.join-link {
+  border: 1px solid hsl(158, 100%, 23%, 1);
+  border-radius: 70px;
+  background-color: hsl(158, 100%, 23%, 1);
+  color: white;
+  width: fit-content;
+  text-decoration: none;
+  padding: 12px;
+  font: 450 17px Rubik;
+}
+.join-link:hover {
+  border: hsl(158, 100%, 23%, 0.9);
+  background-color: hsl(158, 100%, 23%, 0.9);
+}
+.desc-link {
+  text-decoration: none;
+  color: black !important;
+}
+.container5 {
+  width: 870px;
+  margin: 0 auto;
+}
+.questions {
+  padding: 120px 0 160px 0;
+}
+.questions h1 {
+  font: 500 30px Rubik;
+}
+.questions p {
+  font: 370 17px Rubik;
+  width: 620px;
+  margin-top: 30px;
+  line-height: 24px;
+}
+.questions a {
+  color: hsl(158, 100%, 23%, 1);
+}
+.rs-content p {
+  font: 400 15px Rubik;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.icon-link {
+  text-decoration: none;
+  color: black !important;
+}
+.rs-content a {
+  color: hsl(158, 100%, 23%, 1);
+}
+.r-end {
+  display: flex;
+  gap: 45px;
+  margin-top: 40px;
+}
+.r-end h1 {
+  font: 700 14px Rubik;
+  letter-spacing: 2px;
+  color: #00000094;
+  text-transform: uppercase;
+  margin: 35px 0 15px 0;
+}
+.r-end p {
+  font: 400 15px Rubik;
+  line-height: 27px;
+  width: 600px;
+}
+.break {
+  margin-bottom: 15px;
+}

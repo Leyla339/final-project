@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 50px;
+}
+.company img {
+  width: 100%;
+}
+.cmp-p {
+  width: 700px !important;
+  font: 500 22px Work Sans !important;
+  line-height: 33px !important;
+}
+.cmp-content p,
+.cmp-content2 p {
+  width: 780px;
+  font: 450 20px Work Sans;
+  line-height: 33px;
+}
+.company h1 {
+  font: 650 60px Work Sans;
+}
+.company h2 {
+  width: 550px;
+  font: 650 40px Work Sans;
+  line-height: 50px;
+}
+
+.cmp-button {
+  width: fit-content;
+  border: 1px solid hsl(158, 100%, 23%, 1);
+  padding: 8px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+  font: 500 18px Rubik;
+  color: hsl(158, 100%, 23%);
+}
+
+.cmp-button:hover {
+  background-color: hsla(158, 100%, 23%, 0.1);
+}
+.cmp-content h3,
+.cmp-content2 h3 {
+  font: 650 27px Work Sans;
+  color: black;
+}
+
+.cmp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.cmp-content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+}

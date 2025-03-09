@@ -1,0 +1,622 @@
+{
+  "menu": {
+    "drinks": [
+      {
+        "id": 1,
+        "name": "Hot Coffee",
+        "slug": "menu/drinks/hot-coffee",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_DecafPikePlaceRoast.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Cold Coffee",
+        "slug": "menu/drinks/cold-coffee",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/ColdBrew.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Hot Tea",
+        "slug": "menu/drinks/hot-tea",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220411_ChaiLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Cold Tea",
+        "slug": "menu/drinks/cold-tea",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220810_IcedChaiTeaLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Refreshers",
+        "slug": "menu/drinks/refreshers",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211210_StrawberryAcaiLemonadeRefreshers.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 6,
+        "name": "Frappuccino® Blended Beverage",
+        "slug": "menu/drinks/frappuccino-blended-beverage",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211210_CaramelRibbonCrunchFrapp.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 7,
+        "name": "Iced Energy",
+        "slug": "menu/drinks/iced-energy",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/MelonBurstEnergyDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 8,
+        "name": "Hot Chocolate, Lemonade & More",
+        "slug": "menu/drinks/hot-chocolate-lemonade-more",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_SignatureHotChocolate.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 9,
+        "name": "Bottled Beverages",
+        "slug": "menu/drinks/bottled-beverages",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190628_EthosWater.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "food": [
+      {
+        "id": 1,
+        "name": "Breakfast",
+        "slug": "menu/food/breakfast",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/EggPestoMozzarellaSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Bakery",
+        "slug": "menu/food/bakery",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/VanillaBeanCustardDanish.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Treats",
+        "slug": "menu/food/treats",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/ValentinesDayCakePop-US.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Lunch",
+        "slug": "menu/food/lunch",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20220207_GrilledCheeseOnSourdough_US.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Snacks",
+        "slug": "menu/food/snacks",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20180710_PerfectBar_DarkChocolateChipPeanutButter.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "at-home-coffee": [
+      {
+        "id": 1,
+        "name": "Whole Bean",
+        "slug": "menu/at-home-coffee/whole-bean",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/at-home/SunDriedEthiopiaOromiaWestArsi-US-WBReserve.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "VIA® Instant",
+        "slug": "menu/at-home-coffee/via-instant",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/at-home/SBX20190715_ViaInstantSweetenedIcedCoffee.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Shopping Bag",
+        "slug": "menu/at-home-coffee/shopping-bag",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/merch/SBX20210405_SirenShopperBag.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "hot-coffee": {
+    "brewed coffee": [
+      {
+        "id": 1,
+        "name": "Featured Blonde - Single-Origin Ethiopia",
+        "slug": "menu/product/2124786/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_DecafPikePlaceRoast.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Featured Medium Roast - Pike Place® Roast",
+        "slug": "menu/product/480/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_PikePlaceRoast.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Featured Dark Roast",
+        "slug": "menu/product/479/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_FeaturedDarkRoast.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Decaf Pike Place® Roast",
+        "slug": "menu/product/481/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_DecafPikePlaceRoast.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Caffè Misto",
+        "slug": "menu/product/478/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeMisto.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "americano": [
+      {
+        "id": 1,
+        "name": "Caffè Americano",
+        "slug": "menu/product/406/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/CaffeAmericano.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "latte": [
+      {
+        "id": 1,
+        "name": "Caffè Latte",
+        "slug": "menu/product/407/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Pistachio Latte",
+        "slug": "menu/product/2123404/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/FY22Crop_PistachioLatte-onGreen.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Cinnamon Dolce Latte",
+        "slug": "menu/product/414/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CinnamonDolceLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Starbucks® Blonde Vanilla Latte",
+        "slug": "menu/product/2122164/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_CaffeLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Caramel Brulée Latte",
+        "slug": "menu/product/517/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1401_CaramelBruleeLatte-onGreen-MOP_1800.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 6,
+        "name": "Chestnut Praline Latte",
+        "slug": "menu/product/873068661/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/ChestnutPralineLatte-onGreen.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 7,
+        "name": "Gingerbread Latte",
+        "slug": "menu/product/417/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/GingerbreadLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 8,
+        "name": "Sugar Cookie Almondmilk Latte",
+        "slug": "menu/product/2123591/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SugarCookieLatte.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "cappuccino": [
+      {
+        "id": 1,
+        "name": "Cappuccino",
+        "slug": "product/409/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/Cappuccino.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "mocha": [
+      {
+        "id": 1,
+        "name": "Caffè Mocha",
+        "slug": "menu/product/408/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_CaffeMocha.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "White Chocolate Mocha",
+        "slug": "pproduct/420/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_WhiteChocolateMocha.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Peppermint Mocha",
+        "slug": "menu/product/496/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220607_1480_PeppermintMocha-onGreen-MOP_1800.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Peppermint White Chocolate Mocha",
+        "slug": "product/497/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190716_PeppermintWhiteChocolateMocha.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "macchiato": [
+      {
+        "id": 1,
+        "name": "Espresso Macchiato",
+        "slug": "menu/product/412/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_EspressoMacchiato.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Caramel Macchiato",
+        "slug": "menu/product/413/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211029_CaramelMacchiato.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "flat white": [
+      {
+        "id": 1,
+        "name": "Flat White",
+        "slug": "menu/product/565/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_FlatWhite.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Honey Almondmilk Flat White",
+        "slug": "menu/product/2123158/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230406_HoneyAlmondmilkFlatWhite.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "cortado": [
+      {
+        "id": 1,
+        "name": "Cortado",
+        "slug": "menu/product/2124649/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/Cortado.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Brown Sugar Oatmilk Cortado",
+        "slug": "menu/product/2124651/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/BrownSugarOatmilkCortado.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "espresso shot": [
+      {
+        "id": 1,
+        "name": "Espresso",
+        "slug": "menu/product/410/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_Espresso_Single.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Espresso Con Panna",
+        "slug": "menu/product/411/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190617_EspressoConPanna.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "coffee traveler": [
+      {
+        "id": 1,
+        "name": "Coffee Traveler - Veranda Blend®",
+        "slug": "menu/product/873068654/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20191031_CoffeeTraveler.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Coffee Traveler – Pike Place® Roast",
+        "slug": "menu/product/873068655/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20191031_CoffeeTraveler.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Coffee Traveler – Dark Roast",
+        "slug": "menu/product/873068656/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20191031_CoffeeTraveler.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Coffee Traveler – Decaf Pike Place® Roast",
+        "slug": "menu/product/873068657/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20191031_CoffeeTraveler.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "hot-tea": {
+    "tea latte": [
+      {
+        "id": 1,
+        "name": "Chai Latte",
+        "slug": "menu/product/466/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20220411_ChaiLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Matcha Latte",
+        "slug": "menu/product/468/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211115_MatchaTeaLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "London Fog Latte",
+        "slug": "menu/product/477/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190624_LondonFogTeaLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Royal English Breakfast Latte",
+        "slug": "menu/product/465/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190624_RoyalEnglishBreakfastTeaLatte.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Gingerbread Oatmilk Chai",
+        "slug": "menu/product/2123792/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20230612_6244_GingerbreadOatmilkChai-onGreen-MOP_1800.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "brewed tea": [
+      {
+        "id": 1,
+        "name": "Honey Citrus Mint Tea",
+        "slug": "menu/product/2122274/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/HoneyCitrusMintTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Royal English Breakfast Tea",
+        "slug": "menu/product/446/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/RoyalEnglishBreakfastBlackTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Emperor's Clouds & Mist® Tea",
+        "slug": "menu/product/873068751/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/EmperorsCloudAndMistGreenTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Mint Majesty® Tea",
+        "slug": "menu/product/873068754/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/MintMajestyHerbalTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Earl Grey Tea",
+        "slug": "menu/product/450/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190624_EarlGreyBlackTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 6,
+        "name": "Chamomile Mint Blossom Tea",
+        "slug": "menu/product/2123887/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/ChamomileMintBlossomTea.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 7,
+        "name": "Chai Tea",
+        "slug": "menu/product/2122273/hot",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/ChaiBrewedTea.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "refreshers": {
+    "lemonade refreshers": [
+      {
+        "id": 1,
+        "name": "Strawberry Açaí Lemonade Refresher",
+        "slug": "menu/product/2122677/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211210_StrawberryAcaiLemonadeRefreshers.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Blackberry Sage Lemonade Refresher",
+        "slug": "mmenu/product/2124695/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/BlackberrySageLemonadeRefresher.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Mango Dragonfruit Lemonade Refresher",
+        "slug": "menu/product/2122726/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211210_MangoDragonfruitLemonadeRefreshers.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Cran-Merry Orange Lemonade Refresher",
+        "slug": "menu/product/2123987/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/CranMerryOrangeLemonadeRefresher.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "coconutmilk refreshers": [
+      {
+        "id": 1,
+        "name": "Pink Drink",
+        "slug": "menu/product/2122275/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20181217_PinkDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Midnight Drink",
+        "slug": "menu/product/2124697/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/MidnightDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Dragon Drink®",
+        "slug": "menu/product/2122756/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20181217_DragonDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Cran-Merry Drink",
+        "slug": "menu/product/2124001/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/CranMerryDrink.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "refreshers": [
+      {
+        "id": 1,
+        "name": "Strawberry Açaí Refresher",
+        "slug": "menu/product/2121342/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20181217_StrawberryAcaiRefresher.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Blackberry Sage Refresher",
+        "slug": "menu/product/2124696/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/BlackberrySageRefresher.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Mango Dragonfruit Refresher",
+        "slug": "menu/product/2122725/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20221206_MangoDragonfruitRefreshers.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Cran-Merry Orange Refresher",
+        "slug": "menu/product/2123995/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/CranMerryOrangeRefresher.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "iced-energy": {
+    "": [
+      {
+        "id": 1,
+        "name": "Melon Burst Iced Energy",
+        "slug": "menu/product/2123899/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/MelonBurstEnergyDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Tropical Citrus Iced Energy",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/TropicalCitrusEnergyDrink.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Frozen Tropical Citrus Iced Energy with Strawberry Puree",
+        "slug": "menu/product/2123898/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/bev/FrozenTropicalCitrusStrawberryEnergyDrink.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "breakfast": {
+    "breakfast sandwiches": [
+      {
+        "id": 1,
+        "name": "Egg, Pesto & Mozzarella Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/EggPestoMozzarellaSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Bacon, Gouda & Egg Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_BaconGoudaEggSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_BaconCheddarEggSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Sausage, Cheddar & Egg Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SausageCheddarEggSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Turkey Bacon, Cheddar & Egg White Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20170117_ReducedFatTurkeyBaconSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 6,
+        "name": "Impossible™ Breakfast Sandwich",
+        "slug": "menu/product/2123900/iced",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20200225_ImpossibleBreakfastSandwich.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 7,
+        "name": "Avocado Spread",
+        "slug": "menu/product/2122257/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190814_AvocadoSpread.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "breakfast wraps": [
+      {
+        "id": 1,
+        "name": "Bacon, Sausage & Egg Wrap",
+        "slug": "menu/product/2123181/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20191018_BaconSausageCageFreeEggWrap.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Spinach, Feta & Egg White Wrap",
+        "slug": "menu/product/371/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SpinachFetaEggWhiteWrap.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Avocado Spread",
+        "slug": "menu/product/2122257/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190814_AvocadoSpread.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "egg bites & bakes": [
+      {
+        "id": 1,
+        "name": "Bacon & Gruyère Egg Bites",
+        "slug": "menu/product/2122116/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/BaconGruyereEggBites.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 2,
+        "name": "Egg White & Roasted Red Pepper Egg Bites",
+        "slug": "menu/product/2122117/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/EggWhiteRoastedRedPepperEggBites.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 3,
+        "name": "Kale & Mushroom Egg Bites",
+        "slug": "menu/product/2123401/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20200811_KalePortabellaSVEB_OH.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 4,
+        "name": "Potato, Cheddar & Chive Bakes",
+        "slug": "menu/product/2123269/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/PotatoCheddarChiveBakes.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Avocado Spread",
+        "slug": "menu/product/2122257/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20190814_AvocadoSpread.jpg?impolicy=1by1_tight_288"
+      }
+    ],
+    "oatmeal & yogurt": [
+      {
+        "id": 5,
+        "name": "Rolled & Steel-Cut Oatmeal",
+        "slug": "menu/product/301/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20230321_Oatmeal_onGreen.jpg?impolicy=1by1_tight_288"
+      },
+      {
+        "id": 5,
+        "name": "Berry Trio Parfait",
+        "slug": "menu/product/2122192/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/food/BerryTrioParfait.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  },
+  "shopping-bag": {
+    "": [
+      {
+        "id": 1,
+        "name": "Small Shopping Bag",
+        "slug": "menu/product/2121746/single",
+        "img": "https://globalassets.starbucks.com/digitalassets/products/merch/SBX20210405_SirenShopperBag.jpg?impolicy=1by1_tight_288"
+      }
+    ]
+  }
+}

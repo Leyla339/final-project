@@ -1,0 +1,21 @@
+.menu-nav1 {
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 0px 7px inset,
+    rgba(0, 0, 0, 0.3) 0px 0px 4px -10px inset;
+  padding: 20px 0;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.menu-nav {
+  width: 28%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-nav a {
+  text-transform: capitalize;
+  font: 400 14px arial;
+  color: black;
+  text-decoration: none;
+}
