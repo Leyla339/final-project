@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.join-main h2 {
+  text-transform: uppercase;
+  color: grey;
+  font: 700 15px Rubik;
+  margin: 50px 0 20px;
+  letter-spacing: 2px;
+}
+.join-main p {
+  color: gray;
+  font: 400 16px Rubik;
+  width: 70%;
+  text-align: center;
+}
+.join-main a {
+  color: gray;
+}
+.join-form {
+  padding: 40px 100px;
+}
+.join-form p {
+  color: black;
+  text-align: start;
+  width: 70% !important;
+}
+.join-form h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.pass-text {
+  width: 400px !important;
+  font: 400 16px Rubik !important;
+  margin-left: 10px;
+}
+
+.join-main input {
+  padding: 20px !important;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.eye-icon-join {
+  top: 20px;
+  font-size: 20px;
+}
+.join-button {
+  width: 200px;
+  margin-left: 250px;
+  margin-top: 30px;
+  background-color: #00754a;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 30px;
+  font: 500 20px Rubik;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.collect-term {
+  font: 600 14px Rubik !important;
+  margin: 0 !important;
+  margin-top: 20px !important;
+  letter-spacing: 1px !important;
+}
+.collect-p {
+  font: 400 16px Rubik !important;
+  width: 350px !important;
+}
+.know-p {
+  font: 400 16px Rubik !important;
+  width: 300px !important;
+  color: grey !important;
+  margin-left: 35px;
+}
+
+.join-main input[type="checkbox"] {
+  padding: 10px !important;
+  width: fit-content;
+}
+.check-box label {
+  font: 400 16px Rubik;
+}
+.agree-links {
+  padding-top: 30px;
+  line-height: 25px !important;
+}
+.agree-links a {
+  color: #00754a;
+  font: 400 16px Rubik;
+}
+.link-join-icon {
+  margin: 0 5px;
+}
+
+@media (max-width: 1200px) {
+  .join-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .join-button {
+    width: 80%;
+    padding: 18px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-button {
+    width: 90%;
+    padding: 16px 15px;
+    font-size: 16px;
+  }
+}

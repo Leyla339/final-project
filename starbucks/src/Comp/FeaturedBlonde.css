@@ -1,7 +1,12 @@
-.featured-blonde-desc{
-justify-content: left;
-gap: 200px;
+.featured-blonde-desc {
+  justify-content: left;
+  gap: 200px;
 }
-.customize-featured-blonde{
-    margin: 0;
+.customize-featured-blonde {
+  margin: 0;
+}
+@media (max-width: 1024px) {
+  .featured-blonde-desc {
+    gap: 70px;
+  }
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { IoLocationSharp } from "react-icons/io5";
 import Logo from "./Logo.jsx";
@@ -27,21 +27,47 @@ function Navbar() {
             <Logo />
             <div className="main-nav">
               <div className="nav1">
-                <Link to="/menu">menu</Link>
-                <Link to="/rewards">rewards</Link>
-                <Link to="/gift">gift cards</Link>
+                <NavLink
+                  to="/menu"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  menu
+                </NavLink>
+                <NavLink
+                  to="/rewards"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  rewards
+                </NavLink>
+                <NavLink
+                  to="/gift"
+                  className={({ isActive }) =>
+                    isActive ? "nav-link active" : "nav-link"
+                  }
+                >
+                  gift cards
+                </NavLink>
               </div>
               <div className="nav2">
-                <Link to="/store-locator" className="location">
+                <NavLink
+                  to="/store-locator?map=40.542209,-94.660067,5z"
+                  className={({ isActive }) =>
+                    isActive ? "location nav-link active" : "location nav-link"
+                  }
+                >
                   <IoLocationSharp className="loc-icon" />
                   Find a store
-                </Link>
-                <Link to="/account/signin" className="sign">
+                </NavLink>
+                <NavLink to="/account/signin" className="sign">
                   Sign in
-                </Link>
-                <Link to="/account/create" className="join">
+                </NavLink>
+                <NavLink to="/account/create" className="join">
                   Join now
-                </Link>
+                </NavLink>
               </div>
             </div>
 

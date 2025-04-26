@@ -37,6 +37,27 @@
   text-decoration: underline;
   text-decoration-color: #000;
 }
-.pdf a:hover{
-    text-decoration: none;
+.pdf a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .ethics h1,
+  .standarts h2 {
+    font-size: 35px;
+  }
+  .ethics p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 80%;
+  }
+  .pdf h3 {
+    font-size: 26px;
+  }
+  .pdf a {
+    font-size: 18px;
+  }
+  .container2 {
+    width: 80%;
+  }
 }

@@ -109,53 +109,9 @@ function FeaturedBlonde() {
               </p>
             </div>
             <div className="coffee-includes">
-              {/* <h2>What's included</h2>
-              <hr />
-              <div class="select-container">
-                <p className="select-label">Milk</p>
-                <select id="milk">
-                  <option disabled>Milk</option>
-                  <option value="2%" selected>
-                    2% Milk
-                  </option>
-                  <option value="almond">Almond</option>
-                  <option value="coconut">Coconut</option>
-                  <option value="breve">Breve (Half & Half)</option>
-                  <option value="cream">Heavy Cream</option>
-                  <option value="nonfat">Nonfat Milk</option>
-                  <option value="oatmilk">Oatmilk</option>
-                  <option value="soy">Soy</option>
-                  <option value="nondairy">Nondairy Vanilla Sweet Cream</option>
-                  <option value="vanilla">Vanilla Sweet Cream</option>
-                  <option value="whole">Whole Milk</option>
-                </select>
-                <FaAngleDown className="select-icon" />
-              </div>
-              <div class="select-container">
-                <p className="select-label">Milk</p>
-                <select id="milk">
-                  <option disabled>Milk</option>
-                  <option value="extra-foam">Extra Foam</option>
-                  <option value="foam" selected>
-                    Faom
-                  </option>
-                  <option value="ligh-foam">Light Foam</option>
-                  <option value="no-foam">No Foam</option>
-                </select>
-                <FaAngleDown className="select-icon" />
-              </div>
-              <div class="select-container">
-                <p className="select-label">Milk</p>
-                <select id="milk">
-                  <option disabled>Milk</option>
-                  <option value="steamed-hot" selected>
-                    Steamed Hot{" "}
-                  </option>
-                  <option value="hot">Hot</option>
-                  <option value="warm">Warm</option>
-                </select>
-                <FaAngleDown className="select-icon" />
-              </div> */}
+            
+            {/* SELECT PART CAFE MISTO */}
+            
               <button className="customize customize-featured-blonde">
                 <SlMagicWand className="magic-icon" />
                 Customize

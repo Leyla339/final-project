@@ -53,3 +53,100 @@
 .c-content1 a:hover {
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  .container3 {
+    width: 80%;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-position {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: start;
+  }
+
+  .contact-position h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-left: 90px;
+  }
+
+  .contact-content {
+    margin-top: 50px;
+    gap: 80px;
+  }
+
+  .contact-content h1 {
+    font-size: 40px;
+  }
+
+  .contact-content h2 {
+    font-size: 34px;
+  }
+
+  .c-content1 p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container3 {
+    width: 90%;
+  }
+
+  .contact-content {
+    gap: 60px;
+  }
+  .contact-position h1 {
+    margin-left: 40px;
+  }
+
+  .contact-content h1 {
+    font-size: 34px;
+  }
+
+  .contact-content h2 {
+    font-size: 28px;
+  }
+
+  .c-content1 p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container3 {
+    width: 95%;
+  }
+
+  .contact-position h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  .contact-content h1 {
+    font-size: 28px;
+  }
+
+  .contact-content h2 {
+    font-size: 22px;
+  }
+
+  .c-content1 {
+    gap: 25px;
+  }
+
+  .c-content1 p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

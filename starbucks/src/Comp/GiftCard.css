@@ -1,0 +1,245 @@
+.gift-card-container {
+  width: 550px;
+  margin: 0 auto;
+}
+.gift-nav {
+  margin-top: 80px;
+  display: flex;
+  font: 400 18px Rubik;
+  color: #00000094;
+}
+.gift-nav a {
+  text-decoration: none;
+  color: #00000094;
+}
+.gift-nav p {
+  font-weight: 500;
+  margin-left: 5px;
+}
+.gift-main h1 {
+  font: 600 30px Rubik;
+  margin: 20px 0;
+}
+.gift-main img {
+  width: 100%;
+  border-radius: 20px;
+}
+.gift-main p {
+  font: 400 16px Rubik;
+}
+.gift-amount h1,
+.gift-to h1,
+.personal-note h1,
+.gift-from h1 {
+  margin-top: 40px;
+  font: 500 25px Rubik;
+}
+.gift-line {
+  height: 2px;
+  background-color: #d4e9e2;
+  border: 1px solid #d4e9e2;
+}
+.gift-form select {
+  width: 100%;
+}
+.gift-form {
+  position: relative;
+}
+.gift-form-icon {
+  position: absolute;
+  top: 58px;
+  right: 20px;
+  cursor: pointer;
+  color: #00754a;
+  border-radius: 50%;
+  border: 1px solid #00754a;
+  padding: 4px;
+}
+.form-position {
+  position: relative;
+  top: 30px;
+  left: 10px;
+  background-color: white;
+  width: fit-content;
+  padding: 0 6px;
+  font: 400 14px Rubik;
+  border-radius: 10px;
+}
+.gift-to input[type="text"],
+.gift-to input[type="email"],
+.gift-from input[type="text"],
+.gift-from input[type="email"] {
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.gift-to input[type="text"]::placeholder,
+.gift-to input[type="email"]::placeholder,
+.gift-from input[type="text"]::placeholder,
+.gift-from input[type="email"]::placeholder {
+  font: 400 18px Rubik;
+}
+.gift-to input[type="text"]:focus,
+.gift-to input[type="email"]:focus,
+.gift-from input[type="text"]:focus,
+.gift-from input[type="email"]:focus {
+  border: 1px solid #00754a;
+  outline: none;
+}
+.gift-to p {
+  font: 400 17px Rubik;
+  margin-top: 70px;
+  text-align: center;
+}
+.gift-to button {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font: 400 16px Rubik;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.gift-button {
+  text-align: center;
+}
+textarea {
+  width: 100%;
+  border-radius: 8px;
+  height: 100px;
+}
+textarea::placeholder {
+  font: 400 18px Rubik;
+  color: black;
+  padding: 10px;
+}
+.gift-end-bg {
+  background-color: #edebe9;
+  margin-top: 80px;
+  padding: 20px 0 80px;
+}
+
+.gift-end-flex {
+  display: flex;
+  justify-content: center;
+}
+.gift-stars {
+  margin-right: 5px;
+  color: rgba(203, 162, 88, 1);
+  font-size: 20px;
+}
+.gift-end-flex p {
+  color: grey;
+  font: 400 16px Rubik;
+  margin-bottom: 30px;
+}
+.gift-end-container {
+  width: 700px;
+  margin: 0 auto;
+}
+.gift-end a {
+  border: 1px solid black;
+  font: 500 16px Rubik;
+  border-radius: 15px;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+.gift-end a:hover {
+  background-color: #00000013;
+}
+.gift-position-button {
+  background-color: #00754a;
+  padding: 20px;
+  font: 500 20px Rubik;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  top: 500px;
+  right: 50px;
+}
+
+@media (max-width: 850px) {
+  .gift-position-button {
+    top: 550px;
+  }
+}
+@media (max-width: 768px) {
+  .gift-card-container {
+    width: 90%;
+    padding: 0 20px;
+  }
+
+  .gift-nav {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+
+  .gift-main h1 {
+    font-size: 26px;
+    margin: 15px 0;
+  }
+
+  .gift-amount h1,
+  .gift-to h1,
+  .personal-note h1,
+  .gift-from h1 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+
+  .gift-main img {
+    max-width: 85%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .gift-form select {
+    padding: 12px;
+  }
+
+  .gift-form-icon {
+    top: 58px;
+    right: 15px;
+    padding: 5px;
+  }
+
+  .gift-to input[type="text"],
+  .gift-to input[type="email"],
+  .gift-from input[type="text"],
+  .gift-from input[type="email"] {
+    padding: 12px;
+    width: 90%;
+  }
+
+  .gift-to p {
+    font-size: 14px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .gift-position-button {
+    font-size: 18px;
+    padding: 18px;
+    top: 550px;
+  }
+
+  .gift-end-container {
+    width: 90%;
+  }
+
+  .gift-end a {
+    font-size: 14px;
+  }
+
+  .gift-stars {
+    font-size: 18px;
+  }
+}

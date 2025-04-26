@@ -20,7 +20,7 @@
   width: 390px;
 }
 .nav1 {
-  width: 300px;
+  width: 340px;
 }
 .nav1,
 .nav2 {
@@ -34,6 +34,9 @@
   text-decoration: none;
   text-transform: uppercase;
   color: black;
+}
+.nav1 a:first-child {
+  padding-left: 0 !important;
 }
 .nav2 a {
   text-decoration: none;
@@ -139,6 +142,24 @@
   width: fit-content;
 }
 
+.nav-link {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: #00754a; /* Зеленая линия */
+  position: absolute;
+  bottom: -37px;
+  left: 0;
+}
+
 /* Media */
 @media (max-width: 1390px) {
   .nav {
@@ -175,9 +196,13 @@
   .nav1 a,
   .nav2 a {
     margin: 0 10px;
+    font-size: 12px;
   }
-  .nav2 {
-    width: 330px;
+  .nav1 {
+    width: 270px;
+  }
+  .nav1 a {
+    padding: 0;
   }
 }
 @media (max-width: 788px) {

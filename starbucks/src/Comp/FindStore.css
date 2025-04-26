@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.locator {
+  display: flex;
+}
+.find-left {
+  width: 40%;
+  /* display: flex;
+  justify-content: center; */
+}
+.find-right {
+  width: 60%;
+}
+.find-method {
+  display: flex;
+  border: 1px solid #00754a;
+  width: 300px;
+  border-radius: 20px;
+  /* padding: 13px; */
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.find-method a {
+  width: 50%;
+  text-align: center;
+  font: 500 17px Rubik;
+  color: #00754a;
+  padding: 10px;
+  text-decoration: none;
+}
+.find-method a:first-child {
+  border: 1px solid #00754a;
+  background-color: #00754a;
+  color: white;
+  border-radius: 20px;
+}
+.find-method a:nth-child(2):hover {
+  border: 1px solid #00754a1d;
+  background-color: #00754a1d;
+  border-radius: 20px;
+}
+.find-part {
+  display: flex;
+}
+.fixed-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.find-part input[type="text"] {
+  border: none;
+  border-bottom: 1px solid grey;
+  width: 300px;
+}
+.find-part input[type="text"]::placeholder {
+  color: grey;
+  font: 450 18px Rubik;
+}
+.find-part .input[type="text"]:focus {
+  border-color: #00754a;
+}
+.search-icon {
+  position: absolute;
+  left: 320px;
+  font-size: 26px;
+  top: 215px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+.search-icon:hover {
+  color: black;
+}
+.find-part button {
+  margin-left: 20px;
+  border: 1px solid #00754a;
+  background-color: white;
+  font: 500 16px Rubik;
+  color: #00754a;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.find-part button:hover {
+  background-color: #00754a1d;
+}
+
+.find-info-bg:hover {
+  background-color: rgba(128, 128, 128, 0.142);
+}
+.find-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: 45px;
+  padding: 20px 0;
+}
+.find-info h1 {
+  font: 500 30px Rubik;
+  width: 450px;
+  line-height: 45px;
+}
+.find-info p {
+  font: 400 17px Rubik;
+  color: grey;
+  width: 400px;
+  line-height: 25px;
+}
+.find-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 45px;
+  margin-top: 0px;
+}
+.find-links a {
+  font: 450 18px Rubik;
+  color: #00754a;
+  text-decoration: none;
+}
+@media (max-width: 1024px) {
+  .find-left,
+  .find-right {
+    width: 100%;
+  }
+  .locator {
+    flex-direction: column;
+    align-items: center;
+  }
+  .find-method {
+    width: 80%;
+  }
+  .search-icon {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .find-info h1 {
+    width: 100%;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .find-info p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .find-links {
+    margin-left: 0;
+    align-items: center;
+  }
+  .find-part input[type="text"] {
+    width: 80%;
+  }
+  .fixed-left {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .find-method {
+    width: 90%;
+  }
+  .find-method a {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .search-icon {
+    font-size: 22px;
+  }
+}

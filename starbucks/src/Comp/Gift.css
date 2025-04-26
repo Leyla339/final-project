@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.gifts-container {
+  /* width: 1100px; */
+  width: 90%;
+  margin: 0 auto;
+}
+.gift-cards {
+  margin: 70px 0;
+}
+.gift-cards h1 {
+  font: 600 40px Rubik;
+  margin-bottom: 50px;
+}
+.cards-content h2 {
+  font: 600 16px Rubik;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.group-cards {
+  display: flex;
+  background-color: #edebe9;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.group-cards img {
+  width: 60px;
+}
+.group-cards p {
+  font: 400 18px Rubik;
+}
+.add-card-bg {
+  background-color: #d4e9e2;
+  padding: 50px 0 40px;
+  margin-bottom: 40px;
+}
+.link-icon {
+  margin-left: 5px;
+}
+.add-card2 {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 30px;
+}
+.add-card2 a {
+  text-decoration: none;
+  color: #006241;
+  font: 500 18px Rubik;
+}
+.add-card1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.add-card h3 {
+  font: 500 26px Rubik;
+}
+.add-card p {
+  color: #00000094;
+  font: 400 18px Rubik;
+}
+.add-card1 a {
+  font: 500 16px Rubik;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding: 10px 12px;
+  color: black;
+}
+.add-card1 a:hover {
+  background-color: #0000001a;
+}
+.add-card1 button {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 12px;
+  font: 500 16px Rubik;
+  cursor: pointer;
+}
+.add-card1 button:hover {
+  background-color: #00000094;
+  border: 1px solid #00000094;
+}
+
+.gift-slider {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 40px;
+}
+
+.gift-card-img {
+  position: relative;
+  top: 0px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.gift-card-img:hover {
+  top: -10px;
+  transition: top 0.2s ease-in-out;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  padding: 2px 18px;
+  border-radius: 50%;
+  width: 10px !important;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: grey;
+  font-size: 23px !important;
+}
+.business-gift {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.business-gift-bg {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+.business-gift img {
+  width: 400px;
+}
+.business-text h1 {
+  font: 400 25px Rubik;
+  margin-bottom: 0;
+}
+
+.business-text p {
+  margin: 20px 0 40px;
+  font: 400 18px Rubik;
+  width: 400px;
+  color: #00000094;
+  line-height: 25px;
+}
+.business-text a {
+  font: 500 16px Rubik;
+  color: black;
+  border-radius: 20px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.business-text a:hover {
+  background-color: #0000001a;
+}
+.about-gifts-bg {
+  background-color: #edebe9;
+  padding: 50px 0;
+}
+.about-gifts h2 {
+  font: 500 20px Rubik;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.about-gifts p {
+  font: 400 15px Rubik;
+  width: 500px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  width: 100%;
+}
+.about-gifts {
+  display: flex;
+  gap: 50px;
+}
+.about-gifts-part1 a,
+.about-gifts-part2 a {
+  font: 500 16px Rubik;
+  color: black;
+  border-radius: 20px;
+  padding: 10px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+.about-gifts-part1 a:hover,
+.about-gifts-part2 a:hover {
+  background-color: #0000001a;
+}
+
+@media (max-width: 1200px) {
+  .business-gift {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .business-gift img {
+    max-width: 300px;
+  }
+
+  .business-text {
+    max-width: 350px;
+  }
+
+  .business-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .business-text p {
+    font-size: 1.05rem;
+    line-height: 24px;
+  }
+
+  .business-text a {
+    font-size: 0.95rem;
+  }
+  .gifts-container.about-gifts {
+    gap: 40px;
+    padding: 0 30px;
+  }
+
+  .about-gifts-part1,
+  .about-gifts-part2 {
+    max-width: 45%;
+  }
+
+  .about-gifts h2 {
+    font-size: 19px;
+  }
+
+  .about-gifts p {
+    font-size: 15px;
+  }
+  
+}
+@media (max-width: 768px) {
+  .business-gift {
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: start;
+  }
+
+  .business-text {
+    max-width: 90%;
+  }
+
+  .business-text p {
+    font-size: 1rem;
+  }
+
+  .business-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .business-text a {
+    font-size: 0.95rem;
+  }
+
+  .about-gifts {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .gifts-container.about-gifts {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .about-gifts-part1,
+  .about-gifts-part2 {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .about-gifts h2 {
+    font-size: 18px;
+  }
+
+  .about-gifts p {
+    font-size: 14px;
+  }
+
+  .about-gifts-part1 a,
+  .about-gifts-part2 a {
+    font-size: 14px;
+  }
+  .gift-cards h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .add-card1 {
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px;
+  }
+
+  .add-card1 a {
+    margin-bottom: 10px;
+  }
+
+  .add-card2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .business-gift {
+    gap: 30px;
+  }
+
+  .business-text p {
+    font-size: 0.95rem;
+    line-height: 22px;
+    width: 235px;
+  }
+
+  .business-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .business-text a {
+    padding: 8px 10px;
+    font-size: 0.875rem;
+  }
+}
+
+/* До 375px — очень маленькие экраны */
+@media (max-width: 375px) {
+  .business-text p {
+    font-size: 0.9rem;
+  }
+
+  .business-text h1 {
+    font-size: 1.125rem;
+  }
+
+  .business-text a {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+
+  .business-gift img {
+    max-width: 90%;
+  }
+}

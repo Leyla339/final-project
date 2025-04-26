@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
 import "./Rewards.css";
@@ -70,7 +70,6 @@ function Rewards() {
       block: "center",
     });
   };
-
   const rewards = {
     25: {
       image: coffee1,
@@ -103,7 +102,20 @@ function Rewards() {
         "Take home a signature cup, drink tumbler or your choice of coffee merch up to $20. ",
     },
   };
-  const [activeTab, setActiveTab] = useState(25);
+  const [activeTab, setActiveTab] = useState(Object.keys(rewards)[0]);
+  const sliderRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const activeElement = document.querySelector(".num-body-active");
+    const container = containerRef.current;
+
+    if (activeElement && sliderRef.current && container) {
+      const { offsetLeft, offsetWidth } = activeElement;
+      sliderRef.current.style.left = `${offsetLeft}px`;
+      sliderRef.current.style.width = `${offsetWidth}px`;
+    }
+  }, [activeTab]);
 
   return (
     <div>
@@ -176,28 +188,23 @@ function Rewards() {
         <div className="reward4">
           {" "}
           <h1>Get your favorites for free</h1>
-          <div className="r-tabs">
-            {Object.keys(rewards).map((key) => (
-              <span
-                key={key}
-                className={activeTab === Number(key) ? "active" : ""}
-                onClick={() => setActiveTab(Number(key))}
+
+          <div className="all-rewards" ref={containerRef}>
+            {Object.keys(rewards).map((num) => (
+              <div
+                key={num}
+                className={
+                  activeTab === num ? "num-body num-body-active" : "num-body"
+                }
+                onClick={() => setActiveTab(num)}
               >
-                {key}
-                <span className="star">★</span>
-              </span>
+                <span className="reward-numbers">{num}</span>
+                <span className="rew-star">★</span>
+              </div>
             ))}
-            <div
-              className="underline"
-              style={{
-                left: `${
-                  (Object.keys(rewards).map(Number).indexOf(activeTab) /
-                    Object.keys(rewards).length) *
-                  100
-                }%`,
-              }}
-            />
+            <div className="border-slider" ref={sliderRef}></div>
           </div>
+
         </div>
         <div className="rewards4-content">
           <img src={rewards[activeTab].image} />
@@ -241,7 +248,7 @@ function Rewards() {
               </div>
               <hr className="line" />
               <div className="pay-1">
-                <div>
+                <div className="pay1-2-stars">
                   <h1>2★ per dollar</h1>
                   <h2>Add funds in the app</h2>
                 </div>

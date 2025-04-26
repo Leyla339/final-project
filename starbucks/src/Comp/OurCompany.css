@@ -61,3 +61,100 @@
   gap: 30px;
   margin-bottom: 20px;
 }
+
+@media (max-width:900px) {
+  .company {
+    margin-top: 30px;
+  }
+
+  .company h1 {
+    font-size: 50px ;
+  }
+
+  .company h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .cmp-content p,
+  .cmp-content2 p {
+    width: 100%;
+    font-size: 19px;
+  }
+
+  .cmp-button {
+    font-size: 17px;
+    padding: 7px 14px;
+  }
+
+  .cmp-content {
+    gap: 25px;
+  }
+
+  .cmp-content2 {
+    gap: 25px;
+  }
+  
+  .cmp-p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .company img {
+    max-width: 85%;
+  }
+
+  .cmp-content2 h3 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width:780px) {
+  .company {
+    margin-top: 20px;
+  }
+
+  .company h1 {
+    font-size: 40px;
+  }
+
+  .company h2 {
+    font-size: 26x;
+    width: 100%;
+  }
+
+  .cmp-content p,
+  .cmp-content2 p {
+    width: 100%;
+    font-size: 18px;
+  }
+.cmp-p{
+  width: 100% !important;
+}
+  .cmp-button {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .cmp-content {
+    gap: 20px;
+  }
+
+  .cmp-content2 {
+    gap: 20px;
+  }
+  
+  .cmp-p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .company img {
+    max-width: 90%;
+  }
+
+  .cmp-content2 h3 {
+    font-size: 24px;
+  }
+}
+

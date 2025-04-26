@@ -43,31 +43,39 @@ function Featured() {
           </div>
         </div>
         <div className="refreshers">
-          <img src={featured3} />
-          <div className="refreshers-content">
-            <h2>New Blackberry Sage Refreshers </h2>
-            <p>
-              Sweet blackberry flavors and notes of sage are shaken with real
-              blackberry pieces—enjoyed alone or with lemonade or coconutmilk.
-            </p>
-            <Link to="/menu/drinks/refreshers">
-              See our Seasonal Refreshers
-            </Link>
+          <div>
+            <img src={featured3} />
+          </div>
+          <div className="refreshers-content-bg ">
+            <div className="refreshers-content">
+              <h2>New Blackberry Sage Refreshers </h2>
+              <p>
+                Sweet blackberry flavors and notes of sage are shaken with real
+                blackberry pieces—enjoyed alone or with lemonade or coconutmilk.
+              </p>
+              <Link to="/menu/drinks/refreshers">
+                See our Seasonal Refreshers
+              </Link>
+            </div>
           </div>
         </div>
         <div className="refreshers">
-          <div className="refreshers-content">
-            <h2>Iced Shaken Espressos</h2>
-            <p>
-              Starbucks® Blonde espresso combined with hazelnut, brown sugar or
-              classic syrup, shaken with ice, then finished with milk or
-              oatmilk.
-            </p>
-            <Link to="/menu/drinks/cold-coffee/iced-shaken-espresso">
-              See our Shaken Espressos
-            </Link>
-          </div>{" "}
-          <img src={featured4} />
+          <div className="refreshers-content-bg ">
+            <div className="refreshers-content">
+              <h2>Iced Shaken Espressos</h2>
+              <p>
+                Starbucks® Blonde espresso combined with hazelnut, brown sugar
+                or classic syrup, shaken with ice, then finished with milk or
+                oatmilk.
+              </p>
+              <Link to="/menu/drinks/cold-coffee/iced-shaken-espresso">
+                See our Shaken Espressos
+              </Link>
+            </div>{" "}
+          </div>
+          <div>
+            <img src={featured4} />
+          </div>
         </div>
         <div className="pistachios">
           <div className="cortado">
@@ -94,15 +102,20 @@ function Featured() {
           </div>
         </div>
         <div className="refreshers">
-          <img src={featured6} />
-          <div className="refreshers-content latte-content">
-            <h2>Iced Matcha Latte</h2>
-            <p>
-              Crafted with premium matcha, custom-sweetened and served with milk
-              over ice.
-            </p>
-            <Link to="/menu/product/468/iced">Order Now</Link>
-          </div>{" "}
+          <div>
+            <img src={featured6} />
+          </div>
+
+          <div className="refreshers-content-bg ">
+            <div className="refreshers-content latte-content">
+              <h2>Iced Matcha Latte</h2>
+              <p>
+                Crafted with premium matcha, custom-sweetened and served with
+                milk over ice.
+              </p>
+              <Link to="/menu/product/468/iced">Order Now</Link>
+            </div>{" "}
+          </div>
         </div>
       </div>
       <Footer />

@@ -1,8 +1,9 @@
 import React from "react";
-import home1 from "./img/home1.jpg";
-import home2 from "./img/home2.jpg";
-import home3 from "./img/home3.webp";
-import home22 from "./img/home2.2.jpg";
+// import home1 from "./img/home1.jpg";
+// import home2 from "./img/home2.jpg";
+// import home3 from "./img/home3.webp";
+// import home22 from "./img/home2.2.jpg";
+import home31 from "./img/home31.webp";
 import home23 from "./img/home2.3.jpg";
 import { Link } from "react-router-dom";
 import "./Home.css";
@@ -19,25 +20,25 @@ function Home() {
             <div className="home1-text">
               <h2>
                 {/* The best of <br /> winter */}
-                Shaken to perfection
+                {/* Shaken to perfection */}
+                The Spring Edit
               </h2>
               <h3>
                 {/* A new winter menu is here, featuring new Cortado alongside
                 Pistachio beverages and Matcha Latte—now customized to your
                 perfect level of sweetness. */}
-                Experience a feel-good Iced Brown Sugar Oatmilk Shaken Espresso
+                {/* Experience a feel-good Iced Brown Sugar Oatmilk Shaken Espresso
                 or Iced Hazelnut Oatmilk Shaken Espresso—made with Starbucks®
-                Blonde Espresso, and just 150 calories for a grande.
+                Blonde Espresso, and just 150 calories for a grande. */}
+                Fresh flavors, familiar joy.
               </h3>
               <div className="home1-button">
-                <Link to="/menu/drinks/cold-coffee/iced-shaken-espresso">
-                  Add to order
-                </Link>
+                <Link to="/menu/featured/">View the menu </Link>
               </div>
             </div>
           </div>{" "}
           <div className="home1-img">
-            <img src={home22} />
+            <img src={home31} />
           </div>
         </div>
 
@@ -92,7 +93,7 @@ function Home() {
           Sign up before 3/30/2025.
         </p>
       </div>{" "}
-      <Footer />;
+      <Footer />
     </div>
   );
 }

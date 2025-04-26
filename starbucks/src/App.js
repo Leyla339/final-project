@@ -30,6 +30,9 @@ import ShoppingBag from "./Comp/ShoppingBag.jsx";
 import CaffeMisto from "./Comp/CaffeMisto.jsx";
 import FeaturedBlonde from "./Comp/FeaturedBlonde.jsx";
 import MenuNav2 from "./Comp/MenuNav2.jsx";
+import FindStore from "./Comp/FindStore.jsx";
+import Delivery from "./Comp/Delivery.jsx";
+import GiftCard from "./Comp/GiftCard.jsx";
 
 function App() {
   return (
@@ -51,9 +54,9 @@ function App() {
         />
         <Route path="/contact/" element={<ContactUs />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/featured" element={<Featured />} />
-        <Route path="/previous" element={<Previous />} />
-        <Route path="/favorites" element={<Favorites />} />
+        <Route path="/menu/featured" element={<Featured />} />
+        <Route path="/menu/previous" element={<Previous />} />
+        <Route path="/menu/favorites" element={<Favorites />} />
         <Route path="menu/drinks/hot-coffee" element={<HotCoffee />} />
         <Route path="menu/drinks/hot-tea" element={<HotTea />} />
         <Route path="/menu/drinks/refreshers" element={<Refreshers />} />
@@ -66,6 +69,11 @@ function App() {
         <Route path="menu/product/478/hot" element={<CaffeMisto />} />
         <Route path="menu/product/2124786/hot" element={<FeaturedBlonde />} />
         <Route path="account/signin" element={<SignIn />} />
+        <Route path="/store-locator" element={<FindStore />} />
+        <Route path="/store-locator/delivery" element={<Delivery />} />
+        <Route path="/gift" element={<Gift />} />
+        <Route path="/gift/00000571" element={<GiftCard />} />
+        <Route path="/account/create" element={<Join />} />
       </Routes>
 
       {/* <Footer /> */}

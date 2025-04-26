@@ -58,3 +58,21 @@
 .materials a:hover {
   text-decoration: none;
 }
+
+@media (max-width:768px) {
+  .gov-content h1{
+    font-size: 35px;
+  }
+  .gov-content p,.gov-paragraph p{
+    font-size: 18px;
+  }
+  .materials a{
+    font-size: 18px;
+  }
+  .materials{
+    gap: 20px;
+  }
+  .materials h3,.gov-paragraph h3{
+    font-size: 25px;
+  }
+}

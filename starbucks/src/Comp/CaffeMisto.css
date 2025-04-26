@@ -157,10 +157,6 @@ select:focus {
   background-color: #00754a14;
   outline: none;
 }
-/* select:focus + .select-label {
-  color: #00754a;
-  background-color: #00754a14;
-} */
 .select-container {
   position: relative;
 }
@@ -240,7 +236,8 @@ select:focus {
 }
 .coffee-add-order {
   position: fixed;
-  top: 450px;
+  top: 400px;
+  /* bottom: 40px; */
   right: 50px;
   background-color: #00754a;
   color: white;
@@ -250,4 +247,186 @@ select:focus {
   border: none;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 1200px) {
+  .coffee-main img {
+    margin: 0 200px;
+  }
+  .coffee-info .container4 {
+    width: 800px;
+  }
+  .bg-bottom-coffee .container4 {
+    width: 600px;
+  }
+  .customize {
+    width: 200px;
+  }
+  .coffee-add-order {
+    top: 470px;
+  }
+}
+@media (max-width: 1024px) {
+  .coffee-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .coffee-main img {
+    margin: 0;
+  }
+
+  .coffee-name h2 {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .popup,
+  .popup2 {
+    position: static;
+    margin: 20px auto;
+  }
+
+  .coffee-add-order {
+    top: 470px;
+  }
+}
+
+@media (max-width: 600px) {
+  .coffee-main img {
+    width: 150px;
+  }
+
+  .coffee-name h2 {
+    font-size: 22px;
+  }
+
+  .coffee-name p {
+    font-size: 16px;
+  }
+
+  .popup,
+  .popup2 {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .popup p,
+  .popup2 p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .popup .stars,
+  .popup2 .stars {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .bottom-coffee-p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .coffee-ingr,
+  .ingr-list {
+    font-size: 14px;
+  }
+
+  .customize {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .coffee-add-order {
+    font-size: 18px;
+    padding: 15px 20px;
+    top: 550px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .coffee-desc {
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    gap: 30px;
+  }
+
+  .coffee-size-cards {
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 0;
+  }
+
+  select {
+    width: 100%;
+  }
+
+  .select-container {
+    width: 100%;
+  }
+
+  .coffee-desc hr {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .coffee-info .container4 {
+    padding: 0 20px;
+    width: 500px;
+  }
+
+  .size-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .size-image img {
+    width: 24px;
+  }
+
+  .customize {
+    width: 100%;
+    font-size: 18px;
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coffee-size h2,
+  .coffee-includes h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .coffee-loc-p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .size-card h3 {
+    font-size: 15px;
+  }
+
+  .size-card p {
+    font-size: 13px;
+  }
+
+  .select-label {
+    font-size: 12px;
+  }
+
+  select {
+    font-size: 16px;
+  }
+
+  .select-icon {
+    top: 32px;
+    font-size: 14px;
+  }
 }

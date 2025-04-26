@@ -52,3 +52,30 @@
   width: 230px;
   margin-bottom: 25px;
 }
+
+@media (max-width: 768px) {
+  .prev h1 {
+    font-size: 20px;
+    margin: 40px 0 20px 0;
+  }
+  .prev-content img {
+    width: 200px;
+  }
+  .prev-content h2 {
+    font-size: 24px;
+    width: 270px;
+  }
+  .prev-content p{
+    font-size: 14px;
+    line-height: 22px;
+    width: 250px;
+  }
+  .prev-content a{
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+  .fav-content img {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+}

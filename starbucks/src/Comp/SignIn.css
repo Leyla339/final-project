@@ -15,6 +15,14 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+  width: 30%;
+  border-radius: 10px;
+}
+.sign-form p {
+  margin-bottom: 15px;
+  font-family: Rubik;
 }
 .password-input-container {
   position: relative;
@@ -22,8 +30,162 @@
 .eye-icons {
   position: absolute;
   right: 10px;
-  top: 4px;
+  top: 16px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
   color: grey;
+}
+.password-input {
+  width: 95%;
+}
+.user-input,
+.password-input {
+  border: 1px solid rgba(0, 0, 0, 0.518);
+  border-radius: 10px;
+  padding: 15px 10px;
+  outline: none;
+}
+input:focus {
+  border: 2px solid #00754a;
+}
+.check-box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+input:focus::placeholder {
+  color: #00754a;
+}
+input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00754a;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+/* Изменяем стиль при выборе */
+input[type="checkbox"]:checked {
+  background-color: #00754a;
+}
+/* Добавляем кастомную галочку */
+input[type="checkbox"]::after {
+  content: "✔";
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign-form a {
+  color: #00754a;
+  font: bold 16px Rubik;
+}
+.sign-form a:hover {
+  text-decoration: none;
+}
+
+.sign-in-button {
+  width: 50%;
+  margin-left: 200px;
+  background-color: #00754a;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font: 500 20px Rubik;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sign-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.sign-bottom h1 {
+  font: 500 18px Rubik;
+  color: #00754a;
+  letter-spacing: 1px;
+}
+.sign-bottom p {
+  width: 400px;
+  text-align: center;
+  font: 400 16px Rubik;
+  line-height: 25px;
+}
+.sign-bottom a {
+  border: 1px solid #00754a;
+  background-color: white;
+  font: 500 16px Rubik;
+  color: #00754a;
+  padding: 10px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.sign-bottom a:hover {
+  background-color: #00754a1b;
+}
+
+
+@media (max-width: 1024px) {
+  .sign-form {
+    width: 50%;
+    padding: 30px;
+  }
+  .sign-in-button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .sign-form {
+    width: 70%;
+    padding: 25px;
+  }
+  .sign-main h1 {
+    font-size: 24px;
+  }
+  .sign-bottom p {
+    width: 90%;
+    font-size: 14px;
+  }
+  .sign-bottom a {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sign-form {
+    width: 90%;
+    padding: 20px;
+  }
+  .sign-main h1 {
+    font-size: 20px;
+  }
+  .sign-in-button {
+    width: 50%;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .sign-bottom p {
+    width: 95%;
+    font-size: 13px;
+  }
+  .sign-bottom a {
+    text-align: center;
+  }
 }

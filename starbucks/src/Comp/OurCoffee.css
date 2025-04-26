@@ -65,3 +65,51 @@
   line-height: 25px;
   width: 750px;
 }
+
+
+@media (max-width: 830px) {
+  .coffee {
+    margin-top: 30px;
+  }
+
+  .coffee h1 {
+    font-size: 40px;
+  }
+
+  .coffee h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .coffee-content {
+    gap: 20px;
+  }
+
+  .coffee-content h2 {
+    font-size: 28px;
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .coffee-content p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .cf-btn1,
+  .cf-btn2 {
+    font-size: 16px;
+    padding: 6px 14px;
+  }
+
+  .cf-paragraph {
+    font-size: 13px;
+    width: 100%;
+    line-height: 22px;
+  }
+
+  .coffee img {
+    max-width: 90%;
+  }
+}

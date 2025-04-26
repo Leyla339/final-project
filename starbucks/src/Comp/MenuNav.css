@@ -12,10 +12,39 @@
   width: 28%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .menu-nav a {
   text-transform: capitalize;
   font: 400 14px arial;
   color: black;
   text-decoration: none;
+}
+
+@media (max-width: 1390px) {
+  .menu-nav1 .container4 {
+    width: 70%;
+    /* margin: 0; */
+  }
+  .menu-nav {
+    width: 40%;
+  }
+}
+@media (max-width: 990px) {
+  .menu-nav{
+    width: 55%;
+  }
+}
+@media (max-width: 768px) {
+  .menu-nav1 .container4 {
+    width: 90%;
+  }
+  .menu-nav {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .menu-nav {
+    width: 90%;
+  }
 }

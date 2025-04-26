@@ -8,9 +8,9 @@ function MenuNav() {
       <div className="container4">
         <div className="menu-nav">
           <Link to="/menu">menu</Link>
-          <Link to="/featured">featured</Link>
-          <Link to="/previous">previous</Link>
-          <Link to="/favorites">favorites</Link>
+          <Link to="/menu/featured">featured</Link>
+          <Link to="/menu/previous">previous</Link>
+          <Link to="/menu/favorites">favorites</Link>
         </div>
       </div>
     </div>

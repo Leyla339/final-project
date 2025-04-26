@@ -618,5 +618,184 @@
         "img": "https://globalassets.starbucks.com/digitalassets/products/merch/SBX20210405_SirenShopperBag.jpg?impolicy=1by1_tight_288"
       }
     ]
+  },
+  "cards": {
+    "featured": [
+      {
+        "id": 1,
+        "slug": "/gift/00000571",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/SpringSeasonalFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000608",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/HappyBirthdayFY25.png"
+      },
+      {
+        "id": 3,
+        "slug": "/gift/00000613",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/CouldntDoItWithoutYouFY25.png"
+      },
+      {
+        "id": 4,
+        "slug": "/gift/00000599",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/ThankYouFY25.png"
+      },
+      {
+        "id": 5,
+        "slug": "/gift/00000605",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/YouAreAwesomeFY25.png"
+      },
+      {
+        "id": 6,
+        "slug": "/gift/00000602",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/CelebrationFY25.png"
+      },
+      {
+        "id": 7,
+        "slug": "/gift/00000366",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/AboveBeyondFY24.png"
+      },
+      {
+        "id": 8,
+        "slug": "/gift/00000040",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy22/BigThankYouFY22.jpg"
+      }
+    ],
+    "birthday": [
+      {
+        "id": 1,
+        "slug": "/gift/00000475",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/HolidayBirthdayFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000608",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/HappyBirthdayFY25.png"
+      }
+    ],
+    "thank you": [
+      {
+        "id": 1,
+        "slug": "/gift/00000599",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/ThankYouFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000323",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/MyTreatFY24.jpg"
+      },
+      {
+        "id": 3,
+        "slug": "/gift/00000040",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy22/BigThankYouFY22.jpg"
+      }
+    ],
+    "celebration": [
+      {
+        "id": 1,
+        "slug": "/gift/00000602",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/CelebrationFY25.png"
+      }
+    ],
+    "appreciation": [
+      {
+        "id": 1,
+        "slug": "/gift/00000605",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/YouAreAwesomeFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000613",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/CouldntDoItWithoutYouFY25.png"
+      }
+    ],
+    "easter | 4/20": [
+      {
+        "id": 1,
+        "slug": "/gift/00000615",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/HappyEasterFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000381",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/BunderfulFY24.png"
+      }
+    ],
+    "spring": [
+      {
+        "id": 1,
+        "slug": "/gift/00000571",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/SpringSeasonalFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000363",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/SpringTulipsFY24.png"
+      }
+    ],
+    "admin appreciation | 4/23": [
+      {
+        "id": 1,
+        "slug": "/gift/00000613",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy25/CouldntDoItWithoutYouFY25.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000366",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/AboveBeyondFY24.png"
+      },
+      {
+        "id": 3,
+        "slug": "/gift/00000011",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy23/GreatWorkDeservesCoffeeFY23.jpg"
+      }
+    ],
+    "encouragement": [
+      {
+        "id": 1,
+        "slug": "/gift/00000330",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/YouGotThisFY24.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000042",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy22/GoodVibesFY22.jpg"
+      }
+    ],
+    "workplace": [
+      {
+        "id": 1,
+        "slug": "/gift/00000366",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/AboveBeyondFY24.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000011",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy23/GreatWorkDeservesCoffeeFY23.jpg"
+      }
+    ],
+    "anytime": [
+      {
+        "id": 1,
+        "slug": "/gift/00000161",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy23/YayForCoffeeFY24.png"
+      },
+      {
+        "id": 2,
+        "slug": "/gift/00000104",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy20/BrailleFY20.jpg"
+      },
+      {
+        "id": 3,
+        "slug": "/gift/00000341",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy24/CoffeeOClockFY24.png"
+      },
+      {
+        "id": 4,
+        "slug": "/gift/00000035",
+        "img": "https://globalassets.starbucks.com/digitalassets/cards/fy23/HeritageMultipackFY23.jpg"
+      }
+    ]
   }
 }

@@ -42,3 +42,38 @@
   font: 600 20px Rubik;
   color: #fff;
 }
+
+@media (max-width: 1024px) {
+  .menu-bottom {
+    width: 70%;
+  }
+  .bottom-text {
+    display: flex;
+    gap: 5px;
+  }
+  .bottom-text h2 {
+    font: 400 17px Rubik;
+    color: #ffffffb3;
+  }
+  .bottom-content{
+    gap: 40px;
+  }
+  .bag-icon{
+    font-size: 25px;
+  }
+}
+@media (max-width:1440px) {
+  .bg-bottom hr{
+    display: none;
+  }
+}
+@media (max-width:680px){
+  .menu-bottom{
+    width: 90%;
+  }
+}
+@media (max-width:400px) {
+  .menu-bottom{
+    width: 100%;
+  }
+}
