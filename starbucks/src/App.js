@@ -7,7 +7,6 @@ import Home from "./Comp/Home.jsx";
 import Menu from "./Comp/Menu.jsx";
 import Rewards from "./Comp/Rewards.jsx";
 import Gift from "./Comp/Gift.jsx";
-import Location from "./Comp/Location.jsx";
 import SignIn from "./Comp/SignIn.jsx";
 import Join from "./Comp/Join.jsx";
 import Logo from "./Comp/Logo.jsx";
